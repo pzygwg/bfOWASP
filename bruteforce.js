@@ -1,3 +1,4 @@
+// Logan L
 const axios = require("axios");
 const fs = require("fs");
 const readline = require("readline");
@@ -30,7 +31,7 @@ const tryLogin = async (password) => {
 
         if (response.status === 200 && !response.data.error) {
             console.log(`\n[+] Password found: ${password}`);
-            process.exit(0); // Exit when found
+            process.exit(0);
         }
     } catch (error) {
         if (error.response && error.response.status !== 401) {
