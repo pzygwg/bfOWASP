@@ -2,6 +2,7 @@
 bon c'est juste parce que j'avais la flemme de mettre ça dans le word
 
 requirement : nodejs npm
+
 install :
 ```
 npm install axios readline fs cli-progress
